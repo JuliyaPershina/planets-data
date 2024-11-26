@@ -1,0 +1,30 @@
+p {
+  text-align: center;
+}
+table {
+  font-family: sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: rgb(250, 250, 250);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  th,
+  td {
+    padding: 10px 20px;
+    border: 1px solid rgb(190, 190, 190);
+  }
+}
+th {
+  background-color: rgb(235, 235, 235);
+}
+/* td:not(:last-child) {
+  width: 8%;
+} */
+.light_grey {
+  background-color: rgb(245, 245, 245);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245, 245, 245);
+}
