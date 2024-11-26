@@ -1,3 +1,4 @@
+
 p {
   text-align: center;
 }
@@ -27,4 +28,25 @@ th {
 
 tr:nth-child(odd) td {
   background-color: rgb(245, 245, 245);
+}
+
+p {
+    text-align: center;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-color: rgb(156, 156, 170);
+    th {
+        padding: 10px 15px;
+    }
+}
+th {
+    background-color: rgb(228, 234, 240);
+}
+td:not(:last-child) {
+    width: 8%;
+}
+.light_grey {
+    background-color: rgb(241, 244, 244);
 }
